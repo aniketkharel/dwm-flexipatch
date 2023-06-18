@@ -154,11 +154,11 @@ static void (*bartabmonfns[])(Monitor *) = { NULL /* , customlayoutfn */ };
 #endif // MONOCLE_LAYOUT
 #endif // BAR_TABGROUPS_PATCH
 #if BAR_PANGO_PATCH
-static const char font[]                 = "UbuntuMono 10";
+static const char font[]                 = "Martian 10";
 #else
-static const char *fonts[]               = { "UbuntuMono:size=10" };
+static const char *fonts[]               = { "Martian:size=10" };
 #endif // BAR_PANGO_PATCH
-static const char dmenufont[]            = "UbuntuMono:size=10";
+static const char dmenufont[]            = "Martian:size=10";
 
 static char c000000[]                    = "#000000"; // placeholder value
 
