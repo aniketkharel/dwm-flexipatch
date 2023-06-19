@@ -54,6 +54,7 @@ dist: clean
 install: all
 	mkdir -p ${DESTDIR}${PREFIX}/bin
 	cp -f dwm ${DESTDIR}${PREFIX}/bin
+	cp dwm.desktop ${DESTDIR}${PREFIX}/share/xsessions/dwm.desktop
 ifdef YAJLLIBS
 	cp -f dwm-msg ${DESTDIR}${PREFIX}/bin
 endif
